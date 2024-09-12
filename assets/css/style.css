@@ -404,40 +404,53 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
-# About
+# About Section
 --------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #728394;
+
+/* UX & Web Developer to stand out but inline */
+.highlight {
+  color: #3498db; /* Adjust color as needed */
+  font-weight: 600;
 }
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
+/* Quote styling */
+.quote {
+  background-color: #f7f7f7;
+  padding: 10px 20px;
+  border-left: 5px solid #0563bb;
+  font-style: italic;
   margin-bottom: 20px;
-  display: flex;
-  align-items: center;
 }
 
-.about .content ul strong {
+/* Justified description text */
+.description {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* Styling for image */
+.profile-img {
+  width: 400px; /* Adjust the size as needed */
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* Contact info */
+.contact-info ul {
+  padding: 0;
+  list-style: none;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info li i {
+  color: #3498db;
   margin-right: 10px;
-}
-
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: #0563bb;
-  line-height: 0;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
